@@ -1,0 +1,26 @@
+{
+  "ttl": 31536000, 
+  "skiplist": [
+    {
+      "*": -1
+    }
+  ],
+  "googleDomainsToBroker": [],
+  "selfharmlist": [],
+  "bullyPhrases": [
+    "U2FsdGVkX1+DummyEncryptedPayloadUsingHardcodedKey="
+  ],
+  "wlBullyPhrases": [],
+  "thinkTwiceSites": [],
+  "proxyIdentification": [],
+  "vectorExpansionRules": {
+    "google.com": [
+      {
+        "pattern": "^(([a-zA-Z0-9])+)+$",
+        "context": "QUERY_PARAM",
+        "field": "q",
+        "content": ""
+      }
+    ]
+  }
+}
